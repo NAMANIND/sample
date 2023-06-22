@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>CodePen - scrolltrigger, large final section</title>
+  <link rel='stylesheet' href='https://codepen.io/GreenSock/pen/ZEGdQLM/7ba936b34824fefdccfe2c6d9f0b740b.css'><link rel="stylesheet" href="./main.css">
+
+</head>
+<body>
+<!-- partial:index.partial.html -->
+<div id="page" class="site">
+
+  <div id="feather" class="feather"></div>
+  
+  
+  <header id="masthead" class="site-header" role="banner">
+    <nav class="anchor-nav" role="navigation">
+      <a href="#intro" class="anchor">Home</a>
+      <a href="#panel-1" class="anchor">Panel 1</a>
+      <a href="#panel-3" class="anchor">Panel 3</a>
+     
+      <a href="#map" class="anchor">Map</a>
+    </nav>
+  </header>
+
+  <main id="content" class="site-content" role="main">
+
+    <section id="intro" class="full-screen pt-5 blue">
+      <h1>A cool title</h1>
+
+      <div id="clouds-layer-1" class="clouds"></div>
+      <div id="clouds-layer-2" class="clouds"></div>
+    </section>
+
+    <section id="panels">
+
+      <div id="panels-container" style="width: 500%;">
+        <article id="panel-1" class="panel full-screen red">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+
+                <img src="" alt="">
+
+              </div>
+              <div class="col-6 d-flex flex-column">
+
+                <h2>Panel 1</h2>
+
+                <p class="step-description">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                </p>
+
+                <div class="panels-navigation text-right">
+                  <div class="nav-panel" data-sign="plus"><a href="#panel-2" class="anchor">Next</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article id="panel-2" class="panel full-screen orange">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+
+                <img src="" alt="">
+
+              </div>
+              <div class="col-6 d-flex flex-column">
+
+                <h2>Panel 2</h2>
+
+                <p class="step-description">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                </p>
+
+                <div class="panels-navigation">
+                  <div class="nav-panel" data-sign="minus"><a href="#panel-1" class="anchor">Prev</a></div>
+                  <div class="nav-panel" data-sign="plus"><a href="#panel-3" class="anchor">Next</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article id="panel-3" class="panel full-screen purple">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+
+                <img src="" alt="">
+
+              </div>
+              <div class="col-6 d-flex flex-column">
+
+                <h2>Panel 3</h2>
+
+                <p class="step-description">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                </p>
+
+                <div class="panels-navigation">
+                  <div class="nav-panel" data-sign="minus"><a href="#panel-2" class="anchor">Prev</a></div>
+                  <div class="nav-panel" data-sign="plus"><a href="#panel-4" class="anchor">Next</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+        <article id="panel-4" class="panel full-screen green">
+          <div class="container">
+            <div class="row">
+              <div class="col-6">
+
+                <img src="" alt="">
+
+              </div>
+              <div class="col-6 d-flex flex-column">
+
+                <h2>Panel 4</h2>
+
+                <p class="step-description">
+                  Lorem Ipsum is simply dummy text of the printing and typesetting industry. Including versions of Lorem Ipsum.
+                </p>
+
+                <div class="panels-navigation">
+                  <div class="nav-panel" data-sign="minus"><a href="#panel-3" class="anchor">Prev</a></div>
+                  <div class="nav-panel" data-sign="plus"><a href="#panel-5" class="anchor">Next</a></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </article>
+       
+      </div>
+    </section>
+
+    <section id="map" class="full-screen"></section>
+
+  </main>
+
+</div>
+<!-- partial -->
+  <script src='https://unpkg.co/gsap@3/dist/gsap.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollTrigger.min.js'></script>
+<script src='https://unpkg.com/gsap@3/dist/ScrollToPlugin.min.js'></script><script  src="./scroll.js"></script>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+<div id="page-nm" class="site-nm" style="overflow: hidden;">
+    
+
+  <main id="content-nm" class="site-content-nm" role="main" >
+    
+    <section id="panels-nm" >
+
+     
+      <div id="panels-container-nm" style="width: 300vw">
+        <div  id="hepp"  style="position: fixed; left: 0; top: 50%; font-size: 5rem; z-index: 100;  ">
+          <div class="ori-section-title-1 text-uppercase wow fadeInLeft ho-m" data-wow-delay="200ms"
+      data-wow-duration="1500ms" style="transform: rotate(-90deg); font-size: 2.5rem;">
+      <h2>CONNECTING</h2>
+    </div>
+         </div>
+
+         <div style="overflow: hidden; margin-left: 15vw;">
+          
+         </div>
+         
+
+
+
+      </div>
+    </section>
+
+
+  </main>
+
+
+  <section id="ori-service-1" class="ori-service-section-1">
+    
+    <div class="ori-service-wrapper-1">
+      <div class="container2">
+        <div class="ori-service-top-content-1 d-flex justify-content-between align-items-center">
+          <div class="ori-section-title-1 text-uppercase wow fadeInLeft ho-m" data-wow-delay="200ms"
+            data-wow-duration="1500ms">
+            <h2>CONNECTING</h2>
+          </div>
+
+        </div>
+        <div class="ori-service-content-1">
+          <div class="row ro-l">
+
+
+
+            <div class="col-lg-4 wow fadeInUp pos-s" data-wow-delay="400ms" data-wow-duration="1500ms">
+              <div class="ori-service-inner-item position-relative">
+                <div class="ori-service-more position-absolute">
+                  <a href="about.html"><i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="ori-service-img-title position-relative">
+                  <div class="ori-service-img">
+
+                    <!-- Use it like any other HTML element -->
+                    <!-- <model-viewer id="mv-demo1" touch-action="pan-y" autoplay ar ar-modes="webxr scene-viewer"
+                      scale="0.2 0.2 0.2" shadow-intensity="1" src="./models/cube.glb"
+                      alt="A 3D model of an astronaut" poster="./spacesuit.jpg"></model-viewer> -->
+                    <!-- <img src="./images/play-bg.png" alt=""> -->
+
+                    <video width="100%" height="100%" autoplay loop muted>
+                      <source src="./videos/Brands-connect.mp4" type="video/mp4">
+                    </video>
+
+                  </div>
+                  <div class="ori-service-title text-center position-absolute">
+                    <h3>Brands<i class="fal fa-arrow-right"></i></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+
+
+            <div class="col-lg-4 wow fadeInUp pos-s" data-wow-delay="600ms" data-wow-duration="1500ms">
+              <div class="ori-service-inner-item position-relative">
+          
+                <div class="ori-service-img-title position-relative">
+                  <div class="ori-service-img">
+
+                    <video width="100%" height="100%" autoplay loop muted>
+                      <source src="./videos/influencer-badges.mp4 " type="video/mp4">
+                
+      
+                    </video>
+                  </div>
+                  <div class="ori-service-title text-center position-absolute">
+                    <h3>Influencers<i class="fal fa-arrow-right"></i></h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            
+            <div class="col-lg-4 wow fadeInUp pos-s" data-wow-delay="800ms" data-wow-duration="1500ms">
+              <div class="ori-service-inner-item position-relative">
+                <div class="ori-service-more position-absolute">
+                  <a href="service.html"><i class="fas fa-arrow-right"></i></a>
+                </div>
+                <div class="ori-service-img-title position-relative">
+                  <div class="ori-service-img">
+                    <video width="100%" height="100%" autoplay loop muted>
+                      <source src="./videos/Ideas.mp4" type="video/mp4">
+                
+      
+                    </video>
+                  </div>
+                  <div class="ori-service-title text-center position-absolute">
+                    <h3>Ideas</h3>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+
+
+
+
+
+
+
+  
+</div>
+</body>
+</html>
